@@ -4,7 +4,7 @@ class BoardMember {
     this.homeState = homeState;
     this.training = training;
   }
- 
+
   veto() {
     return `No, I must disagree`;
   }
@@ -22,6 +22,6 @@ class BoardMember {
   }
 
   sayHi() {
-    return `"Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${training}.`
+    return `Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${training}.`
   }
 }
