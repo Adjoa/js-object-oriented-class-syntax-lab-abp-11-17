@@ -32,4 +32,8 @@ class Ceo {
     this.homeState = homeState;
     this.training = training;
   }
+
+  hireEmployee() {
+    return 'Welcome aboard!';
+  }
 }
